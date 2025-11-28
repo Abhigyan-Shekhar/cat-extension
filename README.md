@@ -37,7 +37,7 @@ The extension provides two custom cursors:
 
 1. **Download the Extension**
    ```bash
-   git clone https://github.com/yourusername/cat-cursor-chrome-extension.git
+   git clone https://github.com/Abhigyan-Shekhar/cat-extension.git
    ```
 
 2. **Open Chrome Extensions Page**
@@ -121,7 +121,7 @@ This project is licensed under the MIT License - see below for details:
 ```
 MIT License
 
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2024 Abhigyan Shekhar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -144,7 +144,7 @@ SOFTWARE.
 
 ## 👨‍💻 Author
 
-Created with ❤️ by [Your Name]
+Created with ❤️ by [Abhigyan Shekhar](https://github.com/Abhigyan-Shekhar)
 
 ## 🌟 Show Your Support
 
@@ -152,8 +152,8 @@ If you like this project, please give it a ⭐️ on GitHub!
 
 ## 📞 Contact & Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/cat-cursor-chrome-extension/issues)
-- **Email**: your.email@example.com
+- **Issues**: [GitHub Issues](https://github.com/Abhigyan-Shekhar/cat-extension/issues)
+- **GitHub**: [@Abhigyan-Shekhar](https://github.com/Abhigyan-Shekhar)
 
 ---
 
