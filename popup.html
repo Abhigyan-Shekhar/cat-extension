@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cat Cursor Theme</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 360px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .container {
+      padding: 24px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 24px;
+      animation: fadeInDown 0.6s ease;
+    }
+
+    .logo {
+      font-size: 48px;
+      margin-bottom: 8px;
+      animation: bounce 2s infinite;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 4px;
+      background: linear-gradient(120deg, #fff, #FFD700);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subtitle {
+      font-size: 13px;
+      opacity: 0.9;
+      font-weight: 300;
+    }
+
+    .cursor-preview {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      animation: fadeInUp 0.6s ease 0.2s backwards;
+    }
+
+    .cursor-preview h3 {
+      font-size: 14px;
+      margin-bottom: 16px;
+      opacity: 0.95;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .cursor-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .cursor-item {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+      transition: all 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .cursor-item:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .cursor-icon {
+      font-size: 36px;
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .cursor-item p {
+      font-size: 12px;
+      opacity: 0.9;
+      font-weight: 500;
+    }
+
+    .info {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 12px;
+      padding: 16px;
+      font-size: 13px;
+      line-height: 1.6;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      animation: fadeInUp 0.6s ease 0.4s backwards;
+    }
+
+    .info p {
+      opacity: 0.95;
+      margin-bottom: 8px;
+    }
+
+    .info p:last-child {
+      margin-bottom: 0;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(255, 215, 0, 0.3);
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 600;
+      margin-top: 8px;
+      border: 1px solid rgba(255, 215, 0, 0.4);
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+      animation: fadeInUp 0.6s ease 0.6s backwards;
+    }
+
+    .footer p {
+      font-size: 12px;
+      opacity: 0.8;
+    }
+
+    .heart {
+      color: #FF69B4;
+      animation: heartbeat 1.5s infinite;
+      display: inline-block;
+    }
+
+    @keyframes heartbeat {
+      0%, 100% {
+        transform: scale(1);
+      }
+      10%, 30% {
+        transform: scale(1.1);
+      }
+      20%, 40% {
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">🐱</div>
+      <h1>Cat Cursor Theme</h1>
+      <p class="subtitle">Pawsitively adorable cursors!</p>
+    </div>
+
+    <div class="cursor-preview">
+      <h3>✨ Active Cursors</h3>
+      <div class="cursor-grid">
+        <div class="cursor-item">
+          <span class="cursor-icon">🐾</span>
+          <p>Default Cursor</p>
+        </div>
+        <div class="cursor-item">
+          <span class="cursor-icon">😺</span>
+          <p>Hover/Click</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info">
+      <p><strong>🎨 Features:</strong></p>
+      <p>• Enhanced gradient paw print cursor</p>
+      <p>• Detailed cat face with whiskers on hover</p>
+      <p>• Smooth shadows and animations</p>
+      <p>• Works on all websites</p>
+      <span class="badge">✓ Active</span>
+    </div>
+
+    <div class="footer">
+      <p>Made with <span class="heart">♥</span> for cat lovers</p>
+    </div>
+  </div>
+</body>
+</html>

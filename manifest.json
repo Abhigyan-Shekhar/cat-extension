@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Cat Cursor Theme",
+    "version": "1.0",
+    "description": "Changes your browser cursor to adorable cat-themed cursors",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "css": [
+                "styles.css"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "permissions": []
+}
